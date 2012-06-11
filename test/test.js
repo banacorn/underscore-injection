@@ -7,7 +7,6 @@ describe('Collections', function () {
     
     var list = [1, 2, 3, 4, 5];
       
-        
     it('each', function (done) {      
         list.should.have.property('each');        
         var listB = [];        
